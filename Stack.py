@@ -1,36 +1,36 @@
-# stack = []
-# def push_(a):
-#     if is_full():
-#         print("Stack is full")
-#     else:
-#         stack.append(a)
-#         print(stack)
+ stack = []
+ def push_(a):
+     if is_full():
+         print("Stack is full")
+     else:
+         stack.append(a)
+         print(stack)
 
-# def pop_():
-#     if is_empty():
-#         print("Stack is empty")
-#     else:
-#         print(stack.pop())
-#         print(stack)
+ def pop_():
+     if is_empty():
+         print("Stack is empty")
+     else:
+         print(stack.pop())
+         print(stack)
 
-# def is_empty():
-#     return len(stack)==0
+ def is_empty():
+     return len(stack)==0
 
-# def is_full():
-#     return len(stack)==10
+ def is_full():
+     return len(stack)==10
 
-# while True:
-#     choice = int(input("Enter 1: push(), 2:pop()"))
+ while True:
+     choice = int(input("Enter 1: push(), 2:pop()"))
 
-#     if choice == 1:
-#         val = input("Enter a number to push: ")
-#         push_(val)
+     if choice == 1:
+         val = input("Enter a number to push: ")
+         push_(val)
     
-#     elif choice == 2:
-#         pop_()
+     elif choice == 2:
+         pop_()
     
-#     else:
-#         break
+     else:
+         break
 
 
 
